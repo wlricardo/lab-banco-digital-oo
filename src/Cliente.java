@@ -11,4 +11,8 @@ public class Cliente {
 		this.nome = nome;
 	}
 
+	@Override
+	public String toString() {
+		return "Cliente [nome=" + nome + "]";
+	}
 }
